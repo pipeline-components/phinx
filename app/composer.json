@@ -1,4 +1,5 @@
 {
+    "type": "application",
     "require": {
         "robmorgan/phinx": "^0.10.6"
     }
