@@ -1,10 +1,10 @@
-FROM composer:1.9 as build
+FROM composer:1.9.0 as build
 
 COPY app/ /app/
 RUN composer install --no-interaction --no-scripts --no-progress --optimize-autoloader 
 WORKDIR /app/
 
-FROM php:7.3.6-alpine3.8
+FROM php:7.3.9-alpine3.10
 
 RUN docker-php-ext-install mysqli && \
     docker-php-ext-install pdo_mysql
