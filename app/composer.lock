@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f00c8b41c923ee294baf19c65d8b2f9b",
+    "content-hash": "36a19fbf461df3156fc22bcc4cf23d41",
     "packages": [
         {
             "name": "cakephp/collection",
@@ -1051,7 +1051,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
