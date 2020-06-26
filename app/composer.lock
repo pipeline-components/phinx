@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57ea52a45929707a7205ae0745038dee",
+    "content-hash": "5eb0d720769de262865f1bfb3596d75f",
     "packages": [
         {
             "name": "cakephp/collection",
@@ -402,16 +402,16 @@
         },
         {
             "name": "robmorgan/phinx",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/phinx.git",
-                "reference": "e8ac453951797408275b46a7fa4489dd63a93a67"
+                "reference": "c63dcecbad83ae5723498e8b78163a4988d118f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/phinx/zipball/e8ac453951797408275b46a7fa4489dd63a93a67",
-                "reference": "e8ac453951797408275b46a7fa4489dd63a93a67",
+                "url": "https://api.github.com/repos/cakephp/phinx/zipball/c63dcecbad83ae5723498e8b78163a4988d118f6",
+                "reference": "c63dcecbad83ae5723498e8b78163a4988d118f6",
                 "shasum": ""
             },
             "require": {
@@ -481,7 +481,7 @@
                 "migrations",
                 "phinx"
             ],
-            "time": "2020-06-23T16:14:33+00:00"
+            "time": "2020-06-25T23:01:19+00:00"
         },
         {
             "name": "symfony/config",
