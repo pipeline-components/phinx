@@ -87,7 +87,7 @@ SOFTWARE.
 [issue]: https://gitlab.com/pipeline-components/phinx/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [layers-shield]: https://images.microbadger.com/badges/image/pipelinecomponents/phinx.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [microbadger]: https://microbadger.com/images/pipelinecomponents/phinx
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [pulls-shield]: https://img.shields.io/docker/pulls/pipelinecomponents/phinx.svg
