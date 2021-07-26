@@ -2,6 +2,6 @@
     "type": "application",
     "require": {
         "robmorgan/phinx": "0.12.7",
-        "symfony/yaml": "5.3.3"
+        "symfony/yaml": "5.3.4"
     }
 }
