@@ -2,7 +2,7 @@
     "type": "application",
     "require": {
         "robmorgan/phinx": "0.13.3",
-        "symfony/yaml": "6.2.0"
+        "symfony/yaml": "6.2.2"
     },
     "license": "MIT",
     "description": "Pipeline Components Phinx",
