@@ -63,16 +63,16 @@
         },
         {
             "name": "cakephp/core",
-            "version": "5.0.3",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/core.git",
-                "reference": "6549ded1f630a37fba1538b9996044360adf3d8d"
+                "reference": "7326ddfbf52525400708464b27265d7498b4d79b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/core/zipball/6549ded1f630a37fba1538b9996044360adf3d8d",
-                "reference": "6549ded1f630a37fba1538b9996044360adf3d8d",
+                "url": "https://api.github.com/repos/cakephp/core/zipball/7326ddfbf52525400708464b27265d7498b4d79b",
+                "reference": "7326ddfbf52525400708464b27265d7498b4d79b",
                 "shasum": ""
             },
             "require": {
@@ -121,20 +121,20 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/core"
             },
-            "time": "2023-10-17T11:19:32+00:00"
+            "time": "2023-12-26T16:50:06+00:00"
         },
         {
             "name": "cakephp/database",
-            "version": "5.0.3",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/database.git",
-                "reference": "e8278e25a8b1b6bf9f8749d69e422d4283ce9c08"
+                "reference": "385701a1c47c7caef8daaace96f33daf63c30694"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/database/zipball/e8278e25a8b1b6bf9f8749d69e422d4283ce9c08",
-                "reference": "e8278e25a8b1b6bf9f8749d69e422d4283ce9c08",
+                "url": "https://api.github.com/repos/cakephp/database/zipball/385701a1c47c7caef8daaace96f33daf63c30694",
+                "reference": "385701a1c47c7caef8daaace96f33daf63c30694",
                 "shasum": ""
             },
             "require": {
@@ -179,20 +179,20 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/database"
             },
-            "time": "2023-11-28T03:12:11+00:00"
+            "time": "2023-12-26T16:50:06+00:00"
         },
         {
             "name": "cakephp/datasource",
-            "version": "5.0.3",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/datasource.git",
-                "reference": "594fe5ab34e00c8d676bbf109cd8614a2c8e2563"
+                "reference": "6dbfb634b72e9bccd4266ddd1d2defc594b528ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/datasource/zipball/594fe5ab34e00c8d676bbf109cd8614a2c8e2563",
-                "reference": "594fe5ab34e00c8d676bbf109cd8614a2c8e2563",
+                "url": "https://api.github.com/repos/cakephp/datasource/zipball/6dbfb634b72e9bccd4266ddd1d2defc594b528ba",
+                "reference": "6dbfb634b72e9bccd4266ddd1d2defc594b528ba",
                 "shasum": ""
             },
             "require": {
@@ -236,11 +236,11 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/datasource"
             },
-            "time": "2023-11-21T15:10:27+00:00"
+            "time": "2023-12-26T16:50:06+00:00"
         },
         {
             "name": "cakephp/utility",
-            "version": "5.0.3",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/utility.git",
@@ -696,16 +696,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.0.1",
+            "version": "v7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "cdce5c684b2f920bb1343deecdfba356ffad83d5"
+                "reference": "f8587c4cdc5acad67af71c37db34ef03af91e59c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/cdce5c684b2f920bb1343deecdfba356ffad83d5",
-                "reference": "cdce5c684b2f920bb1343deecdfba356ffad83d5",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f8587c4cdc5acad67af71c37db34ef03af91e59c",
+                "reference": "f8587c4cdc5acad67af71c37db34ef03af91e59c",
                 "shasum": ""
             },
             "require": {
@@ -769,7 +769,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.0.1"
+                "source": "https://github.com/symfony/console/tree/v7.0.2"
             },
             "funding": [
                 {
@@ -785,7 +785,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-01T15:10:06+00:00"
+            "time": "2023-12-10T16:54:46+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1249,21 +1249,21 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v3.4.0",
+            "version": "v3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "b3313c2dbffaf71c8de2934e2ea56ed2291a3838"
+                "reference": "fe07cbc8d837f60caf7018068e350cc5163681a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/b3313c2dbffaf71c8de2934e2ea56ed2291a3838",
-                "reference": "b3313c2dbffaf71c8de2934e2ea56ed2291a3838",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/fe07cbc8d837f60caf7018068e350cc5163681a0",
+                "reference": "fe07cbc8d837f60caf7018068e350cc5163681a0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "psr/container": "^2.0"
+                "psr/container": "^1.1|^2.0"
             },
             "conflict": {
                 "ext-psr": "<1.1|>=2"
@@ -1311,7 +1311,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.4.0"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.4.1"
             },
             "funding": [
                 {
@@ -1327,20 +1327,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-30T20:28:31+00:00"
+            "time": "2023-12-26T14:02:43+00:00"
         },
         {
             "name": "symfony/string",
-            "version": "v7.0.0",
+            "version": "v7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "92bd2bfbba476d4a1838e5e12168bef2fd1e6620"
+                "reference": "cc78f14f91f5e53b42044d0620961c48028ff9f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/92bd2bfbba476d4a1838e5e12168bef2fd1e6620",
-                "reference": "92bd2bfbba476d4a1838e5e12168bef2fd1e6620",
+                "url": "https://api.github.com/repos/symfony/string/zipball/cc78f14f91f5e53b42044d0620961c48028ff9f5",
+                "reference": "cc78f14f91f5e53b42044d0620961c48028ff9f5",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v7.0.0"
+                "source": "https://github.com/symfony/string/tree/v7.0.2"
             },
             "funding": [
                 {
@@ -1413,7 +1413,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-29T08:40:23+00:00"
+            "time": "2023-12-10T16:54:46+00:00"
         },
         {
             "name": "symfony/yaml",
