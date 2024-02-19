@@ -13,7 +13,6 @@
 ## Usage
 
 The image is for running phinx, phinx is installed in /app/ in case you need to customize the install before usage.
-The image is based on php:7.3-alpine3.8
 
 ## Examples
 
