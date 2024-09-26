@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ffe60d964070c55d09ac38384446cca",
+    "content-hash": "32276f4f35c06d98a2fa72110c646cdd",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -596,16 +596,16 @@
         },
         {
             "name": "robmorgan/phinx",
-            "version": "0.16.3",
+            "version": "0.16.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/phinx.git",
-                "reference": "b5dab9908aa4edfe866b3f564abcba53d14c8989"
+                "reference": "0ef61fc10395dc25ab37c45125a5be5d6231299c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/phinx/zipball/b5dab9908aa4edfe866b3f564abcba53d14c8989",
-                "reference": "b5dab9908aa4edfe866b3f564abcba53d14c8989",
+                "url": "https://api.github.com/repos/cakephp/phinx/zipball/0ef61fc10395dc25ab37c45125a5be5d6231299c",
+                "reference": "0ef61fc10395dc25ab37c45125a5be5d6231299c",
                 "shasum": ""
             },
             "require": {
@@ -677,9 +677,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cakephp/phinx/issues",
-                "source": "https://github.com/cakephp/phinx/tree/0.16.3"
+                "source": "https://github.com/cakephp/phinx/tree/0.16.4"
             },
-            "time": "2024-09-07T07:48:48+00:00"
+            "time": "2024-09-25T16:10:29+00:00"
         },
         {
             "name": "symfony/config",
