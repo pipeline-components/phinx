@@ -1,7 +1,7 @@
 {
     "type": "application",
     "require": {
-        "robmorgan/phinx": "0.16.4",
+        "robmorgan/phinx": "0.16.5",
         "symfony/yaml": "7.1.5"
     },
     "license": "MIT",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32276f4f35c06d98a2fa72110c646cdd",
+    "content-hash": "3b2c18370843e6c98aba9eddcbb5f399",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -596,16 +596,16 @@
         },
         {
             "name": "robmorgan/phinx",
-            "version": "0.16.4",
+            "version": "0.16.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/phinx.git",
-                "reference": "0ef61fc10395dc25ab37c45125a5be5d6231299c"
+                "reference": "31d837c17d6dc294d44f0b17331066548ac8c032"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/phinx/zipball/0ef61fc10395dc25ab37c45125a5be5d6231299c",
-                "reference": "0ef61fc10395dc25ab37c45125a5be5d6231299c",
+                "url": "https://api.github.com/repos/cakephp/phinx/zipball/31d837c17d6dc294d44f0b17331066548ac8c032",
+                "reference": "31d837c17d6dc294d44f0b17331066548ac8c032",
                 "shasum": ""
             },
             "require": {
@@ -677,9 +677,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cakephp/phinx/issues",
-                "source": "https://github.com/cakephp/phinx/tree/0.16.4"
+                "source": "https://github.com/cakephp/phinx/tree/0.16.5"
             },
-            "time": "2024-09-25T16:10:29+00:00"
+            "time": "2024-10-03T15:41:04+00:00"
         },
         {
             "name": "symfony/config",
@@ -1545,10 +1545,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
