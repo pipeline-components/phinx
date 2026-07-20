@@ -67,20 +67,20 @@
         },
         {
             "name": "cakephp/core",
-            "version": "5.3.6",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/core.git",
-                "reference": "9c458b0e9322ec88bc4c758b33cde6a0abf49d12"
+                "reference": "f1046353dd45ab79610d50ef088d5feecd26b115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/core/zipball/9c458b0e9322ec88bc4c758b33cde6a0abf49d12",
-                "reference": "9c458b0e9322ec88bc4c758b33cde6a0abf49d12",
+                "url": "https://api.github.com/repos/cakephp/core/zipball/f1046353dd45ab79610d50ef088d5feecd26b115",
+                "reference": "f1046353dd45ab79610d50ef088d5feecd26b115",
                 "shasum": ""
             },
             "require": {
-                "cakephp/utility": "^5.3.0",
+                "cakephp/utility": "^5.4.0",
                 "league/container": "^5.1",
                 "php": ">=8.2",
                 "psr/container": "^1.1 || ^2.0"
@@ -96,7 +96,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-5.next": "5.4.x-dev"
+                    "dev-5.next": "5.5.x-dev"
                 }
             },
             "autoload": {
@@ -130,41 +130,44 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/core"
             },
-            "time": "2026-05-15T03:31:14+00:00"
+            "time": "2026-07-19T15:27:06+00:00"
         },
         {
             "name": "cakephp/database",
-            "version": "5.3.6",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/database.git",
-                "reference": "442d12bf0a1edeffc555a59de9f955cb0619c7ca"
+                "reference": "13b1b9b1cf0641b63b3e2fd7e9272be368957047"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/database/zipball/442d12bf0a1edeffc555a59de9f955cb0619c7ca",
-                "reference": "442d12bf0a1edeffc555a59de9f955cb0619c7ca",
+                "url": "https://api.github.com/repos/cakephp/database/zipball/13b1b9b1cf0641b63b3e2fd7e9272be368957047",
+                "reference": "13b1b9b1cf0641b63b3e2fd7e9272be368957047",
                 "shasum": ""
             },
             "require": {
                 "cakephp/chronos": "^3.3",
-                "cakephp/core": "^5.3.0",
-                "cakephp/datasource": "^5.3.0",
+                "cakephp/core": "^5.4.0",
+                "cakephp/datasource": "^5.4.0",
+                "cakephp/event": "^5.4.0",
                 "php": ">=8.2",
                 "psr/log": "^3.0"
             },
             "require-dev": {
-                "cakephp/i18n": "^5.3.0",
-                "cakephp/log": "^5.3.0"
+                "cakephp/i18n": "^5.4.0",
+                "cakephp/log": "^5.4.0",
+                "cakephp/utility": "^5.4.0"
             },
             "suggest": {
                 "cakephp/i18n": "If you are using locale-aware datetime formats.",
-                "cakephp/log": "If you want to use query logging without providing a logger yourself."
+                "cakephp/log": "If you want to use query logging without providing a logger yourself.",
+                "cakephp/utility": "If you want to use EnumLabelTrait."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-5.next": "5.4.x-dev"
+                    "dev-5.next": "5.5.x-dev"
                 }
             },
             "autoload": {
@@ -197,31 +200,31 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/database"
             },
-            "time": "2026-05-21T19:38:13+00:00"
+            "time": "2026-07-19T15:27:06+00:00"
         },
         {
             "name": "cakephp/datasource",
-            "version": "5.3.6",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/datasource.git",
-                "reference": "b768f0c0bf0fca815f83c4caef14e7fbb2409bf5"
+                "reference": "a951c9c64ac0815c0393e50259068cc01da7b14b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/datasource/zipball/b768f0c0bf0fca815f83c4caef14e7fbb2409bf5",
-                "reference": "b768f0c0bf0fca815f83c4caef14e7fbb2409bf5",
+                "url": "https://api.github.com/repos/cakephp/datasource/zipball/a951c9c64ac0815c0393e50259068cc01da7b14b",
+                "reference": "a951c9c64ac0815c0393e50259068cc01da7b14b",
                 "shasum": ""
             },
             "require": {
-                "cakephp/core": "^5.3.0",
+                "cakephp/core": "^5.4.0",
                 "php": ">=8.2",
                 "psr/simple-cache": "^2.0 || ^3.0"
             },
             "require-dev": {
-                "cakephp/cache": "^5.3.0",
-                "cakephp/collection": "^5.3.0",
-                "cakephp/utility": "^5.3.0"
+                "cakephp/cache": "^5.4.0",
+                "cakephp/collection": "^5.4.0",
+                "cakephp/utility": "^5.4.0"
             },
             "suggest": {
                 "cakephp/cache": "If you decide to use Query caching.",
@@ -231,7 +234,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-5.next": "5.4.x-dev"
+                    "dev-5.next": "5.5.x-dev"
                 }
             },
             "autoload": {
@@ -264,24 +267,79 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/datasource"
             },
-            "time": "2026-05-20T10:27:33+00:00"
+            "time": "2026-07-19T15:27:06+00:00"
         },
         {
-            "name": "cakephp/utility",
-            "version": "5.3.6",
+            "name": "cakephp/event",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cakephp/utility.git",
-                "reference": "4c703a010b9d955fed44731669e35d3043425cc7"
+                "url": "https://github.com/cakephp/event.git",
+                "reference": "bddfe2634e76a3dfbc02d9c9fccd2e0a27530aba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/utility/zipball/4c703a010b9d955fed44731669e35d3043425cc7",
-                "reference": "4c703a010b9d955fed44731669e35d3043425cc7",
+                "url": "https://api.github.com/repos/cakephp/event/zipball/bddfe2634e76a3dfbc02d9c9fccd2e0a27530aba",
+                "reference": "bddfe2634e76a3dfbc02d9c9fccd2e0a27530aba",
                 "shasum": ""
             },
             "require": {
-                "cakephp/core": "^5.3.0",
+                "cakephp/core": "^5.4.0",
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-5.next": "5.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cake\\Event\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/event/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP event dispatcher library that helps implementing the observer pattern",
+            "homepage": "https://cakephp.org",
+            "keywords": [
+                "cakephp",
+                "dispatcher",
+                "event",
+                "observer pattern"
+            ],
+            "support": {
+                "forum": "https://stackoverflow.com/tags/cakephp",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "issues": "https://github.com/cakephp/cakephp/issues",
+                "source": "https://github.com/cakephp/event"
+            },
+            "time": "2026-07-19T15:27:06+00:00"
+        },
+        {
+            "name": "cakephp/utility",
+            "version": "5.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/utility.git",
+                "reference": "4e5b69fbef582d2a04087ae5823567c472f05a42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/utility/zipball/4e5b69fbef582d2a04087ae5823567c472f05a42",
+                "reference": "4e5b69fbef582d2a04087ae5823567c472f05a42",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/core": "^5.4.0",
                 "php": ">=8.2"
             },
             "suggest": {
@@ -291,7 +349,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-5.next": "5.4.x-dev"
+                    "dev-5.next": "5.5.x-dev"
                 }
             },
             "autoload": {
@@ -328,7 +386,7 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/utility"
             },
-            "time": "2026-05-21T19:38:13+00:00"
+            "time": "2026-07-19T15:27:06+00:00"
         },
         {
             "name": "league/container",
